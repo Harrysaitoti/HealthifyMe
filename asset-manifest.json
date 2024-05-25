@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/HealthifyMe/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/HealthifyMe/static/js/main.1c880ae6.chunk.js",
+    "main.js.map": "/HealthifyMe/static/js/main.1c880ae6.chunk.js.map",
+    "runtime-main.js": "/HealthifyMe/static/js/runtime-main.14240779.js",
+    "runtime-main.js.map": "/HealthifyMe/static/js/runtime-main.14240779.js.map",
+    "static/js/2.6f8484f1.chunk.js": "/HealthifyMe/static/js/2.6f8484f1.chunk.js",
+    "static/js/2.6f8484f1.chunk.js.map": "/HealthifyMe/static/js/2.6f8484f1.chunk.js.map",
+    "index.html": "/HealthifyMe/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/HealthifyMe/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.6f8484f1.chunk.js.LICENSE.txt": "/HealthifyMe/static/js/2.6f8484f1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14240779.js",
+    "static/js/2.6f8484f1.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.1c880ae6.chunk.js"
+  ]
+}
