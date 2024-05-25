@@ -12,6 +12,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          persist-credentials: false  # This ensures the token is not persisted, which might cause conflicts
+          fetch-depth: 0  # This fetches all history so that the actions can deploy correctly
 
       - name: Set up Node.js
         uses: actions/setup-node@v2
