@@ -1,16 +1,18 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import UserList from './components/UserList';
 import About from './components/About';
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
+      <div>
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={UserList} />
+          <Route path="/about" component={About} />
+        </Switch>
       </div>
     </Router>
   );
